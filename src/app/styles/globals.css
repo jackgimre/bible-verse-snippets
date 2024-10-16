@@ -16,6 +16,14 @@ body {
   overflow-x: hidden;
 }
 
+#body {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  flex-direction: column;
+  height: 100vh; /* Full viewport height for vertical centering */
+}
+
 body {
   color: var(--foreground);
   background: var(--background);
